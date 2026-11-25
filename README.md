@@ -1,121 +1,144 @@
-# Awesome-Enterprise-Document-Collaboration-Suite
+# Awesome Enterprise Document Collaboration Suite
 
 <p align="center">
-
-  <img src="./assets/banner.svg" alt="Top Enterprise Document Collaboration Suite" width="100%" />
-
+  <img src="./assets/banner.svg" alt="Top Enterprise Document Collaboration Suite - Real-Time Collaborative Docs, Spreadsheets & Enterprise Knowledge Bases" width="100%" />
 </p>
-
-
 
 <p align="center">
-
-  <a href="https://github.com"><img src="https://shields.io" alt="Awesome"/></a>
-
-  <a href="https://discord.gg"><img src="https://shields.io" alt="Discord" /></a>
-
-  <a href="https://github.com"><img src="https://shields.io" alt="GitHub stars" /></a>
-
-  <a href="https://github.com"><img src="https://shields.io" alt="GitHub forks" /></a>
-
-  <a href="https://github.com"><img alt="GitHub followers" src="https://shields.io" /></a>
-
+  <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img src="https://img.shields.io/github/followers/ishandutta2007?label=Follow%20%40ishandutta2007&style=social" alt="GitHub followers" /></a>
 </p>
 
-
+---
 
 # 📝 Top Enterprise Document Collaboration Suite
 
+> **The definitive curated directory of SaaS commercial platforms & open-source software for real-time document collaboration, team spreadsheets, collaborative presentations, connected wikis, and sovereign self-hosted office suites.**
 
+*Last updated: November 2026*
 
-**Curated List of SaaS/Commercial Platforms & Open-Source GitHub Projects**  
+Welcome to the **Awesome Enterprise Document Collaboration Suite** list! Whether your organization is evaluating cloud office suites, migrating away from vendor lock-in, adopting real-time document co-authoring engines, or deploying on-premises sovereign workspace infrastructure compliant with GDPR and HIPAA, this resource provides an up-to-date, transparent comparison of both leading commercial SaaS products and top open-source repositories.
 
-*Focused on Real-Time Collaborative Docs, Spreadsheets & Presentations, Connected Team Wikis, Sovereign Self-Hosted Office Suites & Zero-Knowledge Workspaces*  
-
-**Last updated: November 2026**
-
-
-
-This repository tracks notable **SaaS/Commercial platforms** and **open-source projects** for **Enterprise Document Collaboration Suites**. These tools power real-time multi-user document, spreadsheet, and presentation editing, connected enterprise wikis, local-first knowledge workspaces, sovereign self-hosted cloud office suites, and end-to-end encrypted document collaboration for enterprise IT teams, knowledge workers, and privacy-first organizations.
-
-
-
-**Examples** include Microsoft 365, Google Workspace, Quip (Salesforce), Notion, Zoho Workplace, Dropbox Paper, Box Notes, Coda (Grammarly), Craft for Teams, and Slite (the category leaders).
-
-
-
-**🚀 Open-source emphasis**: This section is heavily expanded with every major active project for embeddable document/spreadsheet engines (`Univer`, `OnlyOffice`, `Collabora Online`, `Etherpad`), connected Notion-like workspaces (`AppFlowy`, `AFFiNE`, `Outline`, `Docmost`, `SiYuan`, `Logseq`), and sovereign self-hosted cloud suites (`Nextcloud Hub`, `OwnCloud`, `CryptPad`, `XWiki`, `BookStack`) — ideal for enterprises seeking full data sovereignty, GDPR compliance, and zero per-seat SaaS lock-in.
-
-
-
-🤝 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
+---
 
 ## 📑 Table of Contents
 
 - [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
-
-- [☁️ SaaS/Hosted & Commercial Platforms](#️-saashosted--commercial-platforms)
-
-- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
-
+- [☁️ SaaS & Commercial Document Collaboration Platforms](#️-saas--commercial-document-collaboration-platforms)
+- [💻 Open-Source Document Collaboration Repositories](#-open-source-document-collaboration-repositories)
+- [🎯 Key Architectural Paradigms: CRDT vs OT](#-key-architectural-paradigms-crdt-vs-ot)
 - [🛠️ How to Contribute](#️-how-to-contribute)
-
 - [⚠️ Disclaimer](#️-disclaimer)
+- [💖 Support & Community](#-support--community)
 
-- [💖 Support & Thank You](#-support--thank-you)
-
-
+---
 
 ## 📊 Sector Overview & Market Dynamics
 
+The global Cloud Office, Enterprise Content Collaboration & Connected Workspace software market is estimated at **$68B–$78B+ in 2026**, growing at a sustained CAGR of ~13%–16% driven by AI copilot integrations, remote/hybrid enterprise collaboration, and digital sovereignty mandates. 
 
+The industry demonstrates a bifurcated competitive landscape:
+- **Core Cloud Office Suites (Word, Excel, PPT, Cloud Storage)**: **Highly concentrated** around an entrenched duopoly—Microsoft 365 and Google Workspace capture upwards of 85%+ enterprise market share (winner-take-most dynamics).
+- **Connected Knowledge Bases, Modular Docs & Team Wikis**: **Moderately fragmented**, featuring rapid growth and intense product differentiation among modern challengers like Notion, Coda, Craft, Slite, and ClickUp Docs.
+- **Data-Sovereign & Self-Hosted Infrastructure**: Rapidly expanding segment driven by open-source platforms (Nextcloud Hub, OnlyOffice, Collabora, Outline, AppFlowy, Univer) catering to European GDPR requirements, public sector mandates, air-gapped security, and zero per-seat licensing fees.
 
-The global Cloud Office, Enterprise Content Collaboration & Connected Workspace market is valued at approximately **$68B–$78B+ in 2026**, expanding at a ~12%–16% CAGR propelled by AI document copilots, hybrid work, and European/global digital sovereignty mandates. The mainstream productivity suite layer exhibits **heavy winner-take-most consolidation** around Microsoft 365 and Google Workspace, while the connected wiki and modular document layer is **moderately fragmented** around Notion, Coda, and Slite—alongside rapid enterprise adoption of **open-source, self-hosted office suites** (`Nextcloud`, `OnlyOffice`, `Collabora`, `Outline`, `Univer`).
+---
 
+## ☁️ SaaS & Commercial Document Collaboration Platforms
 
+The table below catalogs leading enterprise SaaS collaboration suites, sorted in **descending order by company scale (market capitalization / enterprise valuation / annual recurring revenue)**.
 
-## ☁️ SaaS/Hosted & Commercial Platforms
-
-
-
-*Sorted descending by company valuation / annual revenue scale.*
-
-
-
-| Platform | Description | Company Scale (Valuation / Revenue) | Starting Paid Tier | Free Tier / Trial Limit |
-
+| Platform | Category & Core Focus | Company Scale (Valuation / Revenue) | Starting Paid Tier (Pricing) | Free Forever Plan & Free Trial Limits |
 | :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft 365](https://www.microsoft.com/microsoft-365)** | Enterprise cloud office suite (Word, Excel, PowerPoint, Loop, SharePoint, Teams & Copilot) | **Part of Microsoft Corp.** (~$3.1T Market Cap / ~$245B+ Annual Revenue) | **$6.00 / user / month** billed annually (Microsoft 365 Business Basic) | **Forever Free Web Plan** (Free browser-based Word/Excel/PowerPoint with **5 GB OneDrive storage** per personal account; 30-day Business trial with full features for up to 25 users) |
+| **[Google Workspace](https://workspace.google.com)** | Cloud-native collaborative office suite (Docs, Sheets, Slides, Drive, Meet & Gemini) | **Part of Alphabet Inc.** (~$2.1T Market Cap / ~$350B+ Annual Revenue) | **$6.00 / user / month** billed annually (Business Starter; 30 GB storage/user) | **Forever Free Personal Tier** (Unlimited collaborative Docs, Sheets, Slides with **15 GB pooled Google Drive storage**; 14-day Enterprise Workspace free trial) |
+| **[Quip](https://quip.com)** | Salesforce-native collaborative docs, live CRM spreadsheets, and embedded deal rooms | **Part of Salesforce Inc.** (~$300B Market Cap / ~$38B+ Annual Revenue) | **$10.00 / user / month** billed annually (Quip Starter; Quip Plus at **$25/user/mo**) | **14-Day Full-Feature Free Trial** (Complete access for team document/spreadsheet collaboration; no perpetual free tier after 14 days) |
+| **[Notion](https://www.notion.so)** | Connected workspace uniting collaborative docs, relational databases, enterprise wikis & AI | **~$10.0B Valuation** (~$400M+ ARR; private unicorn backed by Sequoia/Coatue) | **$10.00 / user / month** billed annually ($12/user/month billed monthly for Plus) | **Forever Free Plan** (Unlimited pages and blocks for individual users, **5 MB maximum file upload limit**, 7-day page history, up to 10 guest collaborators; 14-day Team trial) |
+| **[Dropbox Paper](https://www.dropbox.com/paper)** | Real-time lightweight collaborative notes, task tracking, and rich media workspace | **Part of Dropbox Inc.** (~$8.5B Market Cap / ~$2.5B+ Annual Revenue) | **$9.99 / month** (Dropbox Plus individual) or **$15.00 / user / month** billed annually (Standard Team) | **Forever Free Basic Plan** (Full unlimited access to Dropbox Paper documents with **2 GB Dropbox storage limit** across maximum 3 linked devices; 30-day Business trial) |
+| **[Box Notes](https://www.box.com/notes)** | Enterprise-grade secure real-time collaborative notes embedded in Box Content Cloud | **Part of Box Inc.** (~$4.8B Market Cap / ~$1.1B+ Annual Revenue) | **$15.00 / user / month** billed annually (Box Business plan, 3-user minimum) | **Forever Free Individual Plan** (Up to **10 GB cloud storage limit**, 250 MB single-file upload cap, unlimited Box Notes creation; 14-day Business trial) |
+| **[Coda](https://coda.io)** | All-in-one collaborative doc & canvas blending docs, spreadsheets, buttons & automations | **~$1.4B Valuation** (Merged under Grammarly at ~$13B combined valuation) | **$10.00 / Doc Maker / month** billed annually ($12/mo monthly for Pro; Editors & Viewers are free) | **Forever Free Plan** (Unlimited doc viewers/editors, maximum **50 objects per doc limit** on unshared/shared docs, and 1,000 table rows limit per document) |
+| **[Zoho Workplace](https://www.zoho.com/workplace/)** | Comprehensive enterprise office suite (Zoho Writer, Sheet, Show, WorkDrive & Cliq) | **~$1.4B+ Annual Revenue** (Bootstrapped enterprise SaaS leader; >100M global users) | **$3.00 / user / month** billed annually (Workplace Standard; includes 30 GB Mail + 10 GB WorkDrive) | **Forever Free Plan** (Strictly free for up to **5 team users**, 5 GB storage per user, web-based Writer/Sheet/Show; 15-day unrestricted trial of paid plans) |
+| **[Craft for Teams](https://www.craft.do)** | Native-performance modular structured docs, team knowledge sharing, and visual wiki | **~$100M+ Valuation** (~$12.2M Series B funding; Apple Design Award winner) | **$8.00 / month** billed annually (Plus plan) or **$15.00 / month** for Team tier | **Forever Free Starter Plan** (Up to **1,000 blocks total limit**, 1 GB cloud storage limit, unlimited device sync, 30-day version history; 14-day Team trial) |
+| **[Slite](https://slite.com)** | AI-first collaborative team knowledge base with verified doc answers and change audits | **~$30M–$50M Est. Valuation** (~$15.4M total VC funding from Index Ventures & YC) | **$8.00 / member / month** billed annually ($10/member/month billed monthly for Standard) | **14-Day Full-Access Free Trial** (Includes complete AI knowledge verification, integrations with Slack/Linear/GitHub; no perpetual free tier once trial expires) |
 
-| **[Microsoft 365](https://microsoft.com)** | Enterprise cloud productivity suite combining Word, Excel, PowerPoint, Loop collaborative workspaces, SharePoint, and Microsoft 365 Copilot. | **Part of Microsoft Corp.** (~$245B+ annual revenue; ~$3T+ market cap) | **$6.00 / user / month** billed annually (Microsoft 365 Business Basic) | **Forever Free Web Plan** (Browser-based Word, Excel, and PowerPoint with **5 GB OneDrive storage**; 30-day Business trial) |
+---
 
-| **[Google Workspace](https://google.com)** | Cloud-native real-time collaborative suite uniting Google Docs, Sheets, Slides, Drive, and Gemini AI across enterprise teams. | **Part of Alphabet Inc.** (~$350B+ Alphabet revenue; ~$2T+ market cap) | **$6.00 / user / month** billed annually (Business Starter with 30 GB storage/user) | **Forever Free Personal Tier** (Unlimited Docs, Sheets, and Slides shared across **15 GB Google Drive storage**; 14-day Workspace trial) |
+## 💻 Open-Source Document Collaboration Repositories
 
-| **[Quip (Salesforce)](https://quip.com)** | Collaborative documents, spreadsheets, and checklists embedded directly inside Salesforce CRM workflows for live account and deal teams. | **Part of Salesforce** (~$38B+ Salesforce annual revenue; ~$280B+ market cap) | **$10.00 / user / month** billed annually (Quip Starter) or **$25 / user / mo** (Quip Plus) | **14-Day Free Trial** (Full trial of collaborative Salesforce-integrated docs and spreadsheets; no perpetual free tier) |
+The table below lists top open-source document collaboration projects, real-time rich text/spreadsheet engines, and self-hosted team wikis. 
 
-| **[Notion](https://notion.so)** | All-in-one connected workspace combining collaborative docs, relational databases, enterprise wikis, projects, and Notion AI. | **~$10.0B+ Valuation** (~$400M+ est. ARR) | **$10.00 / user / month** billed annually ($12/mo monthly for Plus plan) | **Forever Free Plan** (Unlimited pages & blocks for individuals, **5 MB file upload cap**, 7-day page history, and up to 10 guest collaborators) |
+Each repository includes its official GitHub star count badge (using `style=social` and `color=white`), linking directly to the repository's stargazers page, and is sorted in **descending order by GitHub star count**.
 
-| **[Zoho Workplace](https://zoho.com)** | Integrated enterprise office and collaboration suite combining Zoho Writer, Sheet, Show, WorkDrive, and Zia AI at aggressive SMB/enterprise pricing. | **~$1.4B+ Annual Revenue** (Bootstrapped global SaaS giant; >100M users) | **$3.00 / user / month** billed annually (Workplace Standard with 30 GB mail + 10 GB WorkDrive) | **Forever Free Plan** (Up to **5 users** with web-based Writer/Sheet/Show and 5 GB storage per user; 15-day full trial) |
+| Repository & Project | GitHub Stars (Live Badge) | License | Primary Architecture / Tech Stack | Overview & Enterprise Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | [![AppFlowy Stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers) | AGPL-3.0 | Flutter / Rust / SQLite | Open-source Notion alternative prioritizing local-first data ownership, offline support, cross-platform desktop/mobile sync, and enterprise plugin extensibility. |
+| **[AFFiNE](https://github.com/toeverything/AFFiNE)** | [![AFFiNE Stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers) | MIT | TypeScript / Rust / CRDT (Yjs) | Next-generation all-in-one collaborative workspace that merges docs, visual whiteboards, and database tables into a single unified canvas with local-first sync. |
+| **[Penpot](https://github.com/penpot/penpot)** | [![Penpot Stars](https://img.shields.io/github/stars/penpot/penpot?style=social&color=white)](https://github.com/penpot/penpot/stargazers) | MPL-2.0 | Clojure / ClojureScript / SVG | Web-based open-source collaborative design, UI prototyping, and multi-user whiteboard platform using native web standards (SVG/CSS) for design and product teams. |
+| **[Joplin](https://github.com/laurent22/joplin)** | [![Joplin Stars](https://img.shields.io/github/stars/laurent22/joplin?style=social&color=white)](https://github.com/laurent22/joplin/stargazers) | AGPL-3.0 | TypeScript / React Native / Node.js | Secure, open-source note-taking and document collaboration application with end-to-end encryption (E2EE) and self-hosted Joplin Server synchronization. |
+| **[SiYuan](https://github.com/siyuan-note/siyuan)** | [![SiYuan Stars](https://img.shields.io/github/stars/siyuan-note/siyuan?style=social&color=white)](https://github.com/siyuan-note/siyuan/stargazers) | AGPL-3.0 | TypeScript / Go / Block-level CRDT | Privacy-first personal and team knowledge management system with block-level bidirectional linking, full SQL query engine, and self-hosted cloud sync. |
+| **[Logseq](https://github.com/logseq/logseq)** | [![Logseq Stars](https://img.shields.io/github/stars/logseq/logseq?style=social&color=white)](https://github.com/logseq/logseq/stargazers) | AGPL-3.0 | ClojureScript / Rust / CRDT | Privacy-first, local-first outliner and knowledge base with graph visualization, bi-directional linking, task management, and encrypted sync protocols. |
+| **[Outline](https://github.com/outline/outline)** | [![Outline Stars](https://img.shields.io/github/stars/outline/outline?style=social&color=white)](https://github.com/outline/outline/stargazers) | BSL 1.1 / Apache-2.0 | TypeScript / React / Node.js / PostgreSQL | Fast, collaborative team knowledge base and wiki featuring Markdown editing, Slack/Google SSO authentication, real-time multiplayer co-authoring, and enterprise search. |
+| **[Tiptap](https://github.com/ueberdosis/tiptap)** | [![Tiptap Stars](https://img.shields.io/github/stars/ueberdosis/tiptap?style=social&color=white)](https://github.com/ueberdosis/tiptap/stargazers) | MIT | TypeScript / ProseMirror / Yjs | Headless, extensible rich text editor framework powering collaborative document editing in hundreds of enterprise SaaS web applications. |
+| **[Nextcloud Server (Hub)](https://github.com/nextcloud/server)** | [![Nextcloud Stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers) | AGPL-3.0 | PHP / JavaScript / MariaDB / Redis | Sovereign self-hosted productivity cloud suite providing Nextcloud Office (integrated Collabora Online / OnlyOffice), Nextcloud Files, Talk, Groupware, and enterprise governance. |
+| **[Univer](https://github.com/dream-num/univer)** | [![Univer Stars](https://img.shields.io/github/stars/dream-num/univer?style=social&color=white)](https://github.com/dream-num/univer/stargazers) | Apache-2.0 | TypeScript / Canvas / WebAssembly | Enterprise-grade full-stack document, spreadsheet, and slide collaboration SDK with real-time multi-user editing, high-performance canvas rendering, and formula engine. |
+| **[Wiki.js](https://github.com/requarks/wiki)** | [![Wiki.js Stars](https://img.shields.io/github/stars/requarks/wiki?style=social&color=white)](https://github.com/requarks/wiki/stargazers) | AGPL-3.0 | Node.js / Vue.js / PostgreSQL | Modern and extensible open-source wiki software for teams, featuring multi-engine editors (Markdown, Visual, Code), Git-backed storage, and SSO integrations. |
+| **[Yjs](https://github.com/yjs/yjs)** | [![Yjs Stars](https://img.shields.io/github/stars/yjs/yjs?style=social&color=white)](https://github.com/yjs/yjs/stargazers) | MIT | JavaScript / Rust (yrust) / CRDT | High-performance Conflict-free Replicated Data Type (CRDT) engine powering real-time peer-to-peer and client-server collaborative document applications globally. |
+| **[Docmost](https://github.com/docmost/docmost)** | [![Docmost Stars](https://img.shields.io/github/stars/docmost/docmost?style=social&color=white)](https://github.com/docmost/docmost/stargazers) | AGPL-3.0 | TypeScript / NestJS / React / Tiptap | Modern open-source collaborative wiki and document platform with real-time multiplayer editing, nested spaces, permissions, and self-hosted Docker deployment. |
+| **[BookStack](https://github.com/BookStackApp/BookStack)** | [![BookStack Stars](https://img.shields.io/github/stars/BookStackApp/BookStack?style=social&color=white)](https://github.com/BookStackApp/BookStack/stargazers) | MIT | PHP / Laravel / MySQL | Simple, self-hosted documentation and knowledge management system organized hierarchically by Books, Chapters, and Pages with granular role-based access control. |
+| **[Etherpad Lite](https://github.com/ether/etherpad-lite)** | [![Etherpad Stars](https://img.shields.io/github/stars/ether/etherpad-lite?style=social&color=white)](https://github.com/ether/etherpad-lite/stargazers) | Apache-2.0 | Node.js / Operational Transformation (OT) | Highly customizable, real-time collaborative text editor with version history playback (Time Slider), rich plugin ecosystem, and embeddable iframe API. |
+| **[Documenso](https://github.com/documenso/documenso)** | [![Documenso Stars](https://img.shields.io/github/stars/documenso/documenso?style=social&color=white)](https://github.com/documenso/documenso/stargazers) | AGPL-3.0 | TypeScript / Next.js / Prisma | The open-source digital document signing and contract workflow platform designed to provide an unbundled, self-hostable alternative to DocuSign. |
+| **[CryptPad](https://github.com/cryptpad/cryptpad)** | [![CryptPad Stars](https://img.shields.io/github/stars/cryptpad/cryptpad?style=social&color=white)](https://github.com/cryptpad/cryptpad/stargazers) | AGPL-3.0 | JavaScript / ChainPad CRDT / Sodium | End-to-end encrypted (zero-knowledge) collaborative office suite including rich text docs, spreadsheets, code pads, kanban boards, and presentations. |
+| **[HedgeDoc](https://github.com/hedgedoc/hedgedoc)** | [![HedgeDoc Stars](https://img.shields.io/github/stars/hedgedoc/hedgedoc?style=social&color=white)](https://github.com/hedgedoc/hedgedoc/stargazers) | AGPL-3.0 | Node.js / React / OT / Markdown | Real-time collaborative Markdown editor with live side-by-side preview, YAML frontmatter support, math rendering (KaTeX), and presentation mode. |
+| **[ONLYOFFICE Document Server](https://github.com/ONLYOFFICE/DocumentServer)** | [![ONLYOFFICE Stars](https://img.shields.io/github/stars/ONLYOFFICE/DocumentServer?style=social&color=white)](https://github.com/ONLYOFFICE/DocumentServer/stargazers) | AGPL-3.0 | C++ / JavaScript / HTML5 Canvas | High-fidelity enterprise office suite with native OOXML compatibility (DOCX, XLSX, PPTX), collaborative co-editing modes, and seamless Nextcloud/Alfresco integration. |
+| **[Collabora Online](https://github.com/CollaboraOnline/online)** | [![Collabora Online Stars](https://img.shields.io/github/stars/CollaboraOnline/online?style=social&color=white)](https://github.com/CollaboraOnline/online/stargazers) | MPL-2.0 | C++ / LibreKit / JavaScript | Enterprise-ready, cloud-based LibreOffice-powered editing engine for text documents, spreadsheets, and presentations with complete data sovereignty and WOPI support. |
+| **[XWiki Platform](https://github.com/xwiki/xwiki-platform)** | [![XWiki Stars](https://img.shields.io/github/stars/xwiki/xwiki-platform?style=social&color=white)](https://github.com/xwiki/xwiki-platform/stargazers) | LGPL-2.1 | Java / Groovy / Velocity / Solr | Comprehensive enterprise wiki application platform with advanced document management, fine-grained ACLs, extension manager, and Confluence migration tools. |
 
-| **[Dropbox Paper](https://dropbox.com)** | Lightweight, real-time collaborative document and task-coordination workspace integrated natively with Dropbox cloud storage. | **Part of Dropbox Inc.** (~$2.5B+ annual revenue; ~$8B+ public market cap) | **$9.99 / month** (Dropbox Plus 2 TB) or **$15.00 / user / mo** (Business Standard) | **Forever Free Basic Plan** (Included free with Dropbox Basic **2 GB cloud storage** across up to 3 linked devices; 30-day Business trial) |
+---
 
-| **[Box Notes](https://box.com)** | Real-time collaborative note-taking and document co-editing tool built natively into Box's enterprise content management and governance cloud. | **Part of Box Inc.** (~$1.1B+ annual revenue; ~$4.5B+ public market cap) | **$15.00 / user / month** billed annually (Box Business starter, minimum 3 users) | **Forever Free Individual Plan** (Up to **10 GB cloud storage**, 250 MB file upload limit, and unlimited Box Notes; 14-day Business trial) |
+## 🎯 Key Architectural Paradigms: CRDT vs OT
 
-| **[Coda (Grammarly / Superhuman)](https://coda.io)** | All-in-one doc-meets-app collaborative workspace blending rich text, tables, formulas, buttons, and workflow packs (merged with Grammarly). | **~$1.4B Pre-Merger Valuation** (Merged with Grammarly at ~$13B combined scale) | **$10.00 / Doc Maker / month** billed annually ($12/mo monthly for Pro; Editors are free) | **Forever Free Plan** (Unlimited viewers/editors, **50 objects per unshared doc** size limit on shared docs, and 1,000 rows per table) |
+Enterprise document collaboration platforms rely on two primary concurrency control models:
 
-| **[Craft for Teams](https://craft.do)** | Native-first, design-forward structured document and knowledge-sharing platform for Apple, Windows, and web teams with styled cards and daily notes. | **~$100M+ Est. Valuation** (~$12.2M Series B funding; Apple App of the Year winner) | **$8.00 / month** billed annually ($10/mo monthly for Plus; Team plans from **$15/mo** for 25 members) | **Forever Free Starter Plan** (Up to **1,000 blocks**, 1 GB media storage, and unlimited cross-platform sync; 14-day Team trial) |
+```
++-----------------------------------------------------------------------------------+
+|                        Concurrency Control Architectures                          |
++-----------------------------------------------------------------------------------+
+| 1. Operational Transformation (OT)                                                |
+|    - Used by: Google Docs, Etherpad, Microsoft 365                                |
+|    - Requires a centralized authority / server to linearize and transform edits. |
+|    - Strengths: Proven stability, fine-grained control over document state.       |
+|    - Limitations: High server dependency, complex offline conflict resolution.    |
++-----------------------------------------------------------------------------------+
+| 2. Conflict-free Replicated Data Types (CRDTs)                                   |
+|    - Used by: Yjs, AFFiNE, AppFlowy, Univer, Notion (hybrid)                      |
+|    - Allows edits to merge deterministically without central server coordination. |
+|    - Strengths: Native offline-first / local-first, peer-to-peer sync, resilience.|
+|    - Limitations: Metadata overhead, tombstone garbage collection challenges.    |
++-----------------------------------------------------------------------------------+
+```
 
-| **[Slite](https://slite.com)** | AI-powered team knowledge base and collaborative documentation platform featuring "Ask" verified answers and automated doc-verification workflows. | **~$30M–$50M Est. Valuation** (~$15.4M total VC funding) | **$8.00 / member / month** billed annually ($10/mo monthly for Standard plan) | **14-Day Full-Access Free Trial** (Includes AI knowledge search, collaborative docs, and Slack/Linear integrations; no perpetual free tier) |
+---
 
+## 🛠️ How to Contribute
 
+Contributions are welcome! Please follow these guidelines:
 
-## 💻 Open-Source GitHub Projects
+1. **Check Existing Entries**: Search the tables to ensure the platform or open-source repository isn't already included.
+2. **Open-Source Criteria**: Must be actively maintained on GitHub with clear documentation, open license, and relevant document/knowledge collaboration focus.
+3. **Format Standards**: Ensure all columns (Valuation/Revenue scale, starting tier pricing, explicit free tier limits, star badges linking to stargazers) are filled out accurately.
+4. **Submit a Pull Request**: Submit your PR with a clear description and commit message following standard conventions.
 
+---
 
+## ⚠️ Disclaimer
 
-| Project | License / Hosting Cost | Free Tier / Self-Hosted Limit | Description |
+Product pricing, free tier limits, features, and company valuations change over time. The pricing information is sourced from publicly available provider pricing pages and SEC filings as of late 2026. Please verify directly with each provider for real-time commercial enterprise agreements.
 
-| :--- | :--- | :--- | :--- |
+---
 
-| **[Univer (`dream-num/univer`)](https://github.com)** | **Apache-2.0 Open-Source** ($0 embeddable spreadsheet, doc & slide engine) | **100% Free forever** (Unlimited high-performance collaborative spreadsheets, rich documents, and formula engines in your web apps) | Open-source, full-stack enterprise document, spreadsheet, and presentation collaboration framework designed for deep web embedding. |
+## 💖 Support & Community
+
+If this curated repository helped you evaluate enterprise document collaboration solutions, please consider giving it a ⭐️ **Star** and sharing it with your engineering and IT teams!
