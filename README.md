@@ -1,55 +1,56 @@
-# Awesome Enterprise Document Collaboration Suite
+# 🚀 Awesome Enterprise Document Collaboration Suite ✨
 
 <p align="center">
   <img src="./assets/banner.svg" alt="Top Enterprise Document Collaboration Suite - Real-Time Collaborative Docs, Spreadsheets & Enterprise Knowledge Bases" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite?style=social" alt="GitHub stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite" alt="License" /></a>
-  <a href="https://github.com/ishandutta2007"><img src="https://img.shields.io/github/followers/ishandutta2007?label=Follow%20%40ishandutta2007&style=social" alt="GitHub followers" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ---
 
-# 📝 Top Enterprise Document Collaboration Suite
+# 📝 Top Enterprise Document Collaboration Suite 🌟
 
-> **The definitive curated directory of SaaS commercial platforms & open-source software for real-time document collaboration, team spreadsheets, collaborative presentations, connected wikis, and sovereign self-hosted office suites.**
+> **The definitive curated directory of SaaS commercial platforms & open-source software for real-time document collaboration, team spreadsheets, collaborative presentations, connected wikis, and sovereign self-hosted office suites.** ⚡
 
-*Last updated: November 2026*
+*Last updated: November 2026* 📅
 
-Welcome to the **Awesome Enterprise Document Collaboration Suite** list! Whether your organization is evaluating cloud office suites, migrating away from vendor lock-in, adopting real-time document co-authoring engines, or deploying on-premises sovereign workspace infrastructure compliant with GDPR and HIPAA, this resource provides an up-to-date, transparent comparison of both leading commercial SaaS products and top open-source repositories.
+Welcome to the **Awesome Enterprise Document Collaboration Suite** list! 🎉 Whether your organization is evaluating cloud office suites, migrating away from vendor lock-in, adopting real-time document co-authoring engines, or deploying on-premises sovereign workspace infrastructure compliant with GDPR and HIPAA, this resource provides an up-to-date, transparent comparison of both leading commercial SaaS products and top open-source repositories. 💼
 
 ---
 
-## 📑 Table of Contents
+## 📑 Table of Contents 🧭
 
 - [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [☁️ SaaS & Commercial Document Collaboration Platforms](#️-saas--commercial-document-collaboration-platforms)
 - [💻 Open-Source Document Collaboration Repositories](#-open-source-document-collaboration-repositories)
 - [🎯 Key Architectural Paradigms: CRDT vs OT](#-key-architectural-paradigms-crdt-vs-ot)
+- [📈 Star History](#-star-history)
 - [🛠️ How to Contribute](#️-how-to-contribute)
 - [⚠️ Disclaimer](#️-disclaimer)
 - [💖 Support & Community](#-support--community)
 
 ---
 
-## 📊 Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics 📈
 
-The global Cloud Office, Enterprise Content Collaboration & Connected Workspace software market is estimated at **$68B–$78B+ in 2026**, growing at a sustained CAGR of ~13%–16% driven by AI copilot integrations, remote/hybrid enterprise collaboration, and digital sovereignty mandates. 
+The global Cloud Office, Enterprise Content Collaboration & Connected Workspace software market is estimated at **$68B–$78B+ in 2026**, growing at a sustained CAGR of ~13%–16% driven by AI copilot integrations, remote/hybrid enterprise collaboration, and digital sovereignty mandates. 🌐
 
 The industry demonstrates a bifurcated competitive landscape:
-- **Core Cloud Office Suites (Word, Excel, PPT, Cloud Storage)**: **Highly concentrated** around an entrenched duopoly—Microsoft 365 and Google Workspace capture upwards of 85%+ enterprise market share (winner-take-most dynamics).
-- **Connected Knowledge Bases, Modular Docs & Team Wikis**: **Moderately fragmented**, featuring rapid growth and intense product differentiation among modern challengers like Notion, Coda, Craft, Slite, and ClickUp Docs.
-- **Data-Sovereign & Self-Hosted Infrastructure**: Rapidly expanding segment driven by open-source platforms (Nextcloud Hub, OnlyOffice, Collabora, Outline, AppFlowy, Univer) catering to European GDPR requirements, public sector mandates, air-gapped security, and zero per-seat licensing fees.
+- **Core Cloud Office Suites (Word, Excel, PPT, Cloud Storage)** 🏢: **Highly concentrated** around an entrenched duopoly—Microsoft 365 and Google Workspace capture upwards of 85%+ enterprise market share (winner-take-most dynamics).
+- **Connected Knowledge Bases, Modular Docs & Team Wikis** 🧠: **Moderately fragmented**, featuring rapid growth and intense product differentiation among modern challengers like Notion, Coda, Craft, Slite, and ClickUp Docs.
+- **Data-Sovereign & Self-Hosted Infrastructure** 🛡️: Rapidly expanding segment driven by open-source platforms (Nextcloud Hub, OnlyOffice, Collabora, Outline, AppFlowy, Univer) catering to European GDPR requirements, public sector mandates, air-gapped security, and zero per-seat licensing fees.
 
 ---
 
-## ☁️ SaaS & Commercial Document Collaboration Platforms
+## ☁️ SaaS & Commercial Document Collaboration Platforms 🌐
 
-The table below catalogs leading enterprise SaaS collaboration suites, sorted in **descending order by company scale (market capitalization / enterprise valuation / annual recurring revenue)**.
+The table below catalogs leading enterprise SaaS collaboration suites, sorted in **descending order by company scale (market capitalization / enterprise valuation / annual recurring revenue)**. 📊
 
 | Platform | Category & Core Focus | Company Scale (Valuation / Revenue) | Starting Paid Tier (Pricing) | Free Forever Plan & Free Trial Limits |
 | :--- | :--- | :--- | :--- | :--- |
@@ -66,11 +67,11 @@ The table below catalogs leading enterprise SaaS collaboration suites, sorted in
 
 ---
 
-## 💻 Open-Source Document Collaboration Repositories
+## 💻 Open-Source Document Collaboration Repositories 🔓
 
-The table below lists top open-source document collaboration projects, real-time rich text/spreadsheet engines, and self-hosted team wikis. 
+The table below lists top open-source document collaboration projects, real-time rich text/spreadsheet engines, and self-hosted team wikis. 🛠️
 
-Each repository includes its official GitHub star count badge (using `style=social` and `color=white`), linking directly to the repository's stargazers page, and is sorted in **descending order by GitHub star count**.
+Each repository includes its official GitHub star count badge (using `style=social` and `color=white`), linking directly to the repository's stargazers page, and is sorted in **descending order by GitHub star count**. 🌟
 
 | Repository & Project | GitHub Stars (Live Badge) | License | Primary Architecture / Tech Stack | Overview & Enterprise Capabilities |
 | :--- | :--- | :--- | :--- | :--- |
@@ -98,7 +99,7 @@ Each repository includes its official GitHub star count badge (using `style=soci
 
 ---
 
-## 🎯 Key Architectural Paradigms: CRDT vs OT
+## 🎯 Key Architectural Paradigms: CRDT vs OT 🏗️
 
 Enterprise document collaboration platforms rely on two primary concurrency control models:
 
@@ -122,23 +123,34 @@ Enterprise document collaboration platforms rely on two primary concurrency cont
 
 ---
 
-## 🛠️ How to Contribute
+## 📈 Star History
 
-Contributions are welcome! Please follow these guidelines:
-
-1. **Check Existing Entries**: Search the tables to ensure the platform or open-source repository isn't already included.
-2. **Open-Source Criteria**: Must be actively maintained on GitHub with clear documentation, open license, and relevant document/knowledge collaboration focus.
-3. **Format Standards**: Ensure all columns (Valuation/Revenue scale, starting tier pricing, explicit free tier limits, star badges linking to stargazers) are filled out accurately.
-4. **Submit a Pull Request**: Submit your PR with a clear description and commit message following standard conventions.
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite&type=date&legend=top-left)
 
 ---
 
-## ⚠️ Disclaimer
+## 🛠️ How to Contribute 🤝
+
+Contributions are welcome! Please follow these guidelines:
+
+1. **Check Existing Entries** 🔍: Search the tables to ensure the platform or open-source repository isn't already included.
+2. **Open-Source Criteria** 📋: Must be actively maintained on GitHub with clear documentation, open license, and relevant document/knowledge collaboration focus.
+3. **Format Standards** 📐: Ensure all columns (Valuation/Revenue scale, starting tier pricing, explicit free tier limits, star badges linking to stargazers) are filled out accurately.
+4. **Submit a Pull Request** 🚀: Submit your PR with a clear description and commit message following standard conventions.
+
+---
+
+## ⚠️ Disclaimer 📌
 
 Product pricing, free tier limits, features, and company valuations change over time. The pricing information is sourced from publicly available provider pricing pages and SEC filings as of late 2026. Please verify directly with each provider for real-time commercial enterprise agreements.
 
 ---
 
-## 💖 Support & Community
+## 💖 Support & Community 🙏
 
-If this curated repository helped you evaluate enterprise document collaboration solutions, please consider giving it a ⭐️ **Star** and sharing it with your engineering and IT teams!
+Thank you so much for exploring this curated repository! If this resource has helped you or your engineering and IT teams discover, evaluate, or deploy enterprise document collaboration solutions, please consider supporting the project:
+
+- ⭐ **Star this repository** on GitHub to help others discover it.
+- 🍴 **Fork and contribute** new tools, benchmarks, and updates.
+- 📢 **Share with colleagues, tech communities, and on social media.**
+- ☕ **Buy a coffee & sponsor ongoing maintenance:** Support the author on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)! Every bit of support is deeply appreciated! ❤️

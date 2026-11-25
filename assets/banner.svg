@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.8" stroke-opacity="0.25" />
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 44px;
+      font-weight: 800;
+      fill: url(#titleGrad);
+      letter-spacing: -0.5px;
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      fill: #94a3b8;
+      letter-spacing: 0.2px;
+    }
+    .pill-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #e2e8f0;
+    }
+    .badge-label {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      fill: #38bdf8;
+      text-transform: uppercase;
+    }
+
+    /* Ambient Pulsing Glow */
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1); opacity: 0.4; }
+      50% { transform: scale(1.15); opacity: 0.7; }
+    }
+    .orb-1 {
+      transform-origin: 200px 100px;
+      animation: pulseOrb 8s ease-in-out infinite;
+    }
+    .orb-2 {
+      transform-origin: 1000px 300px;
+      animation: pulseOrb 10s ease-in-out infinite 2s;
+    }
+
+    /* Floating Data Stream Particles */
+    @keyframes floatParticle {
+      0% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
+      50% { transform: translateY(-20px) translateX(15px); opacity: 0.8; }
+      100% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
+    }
+    .particle-1 { animation: floatParticle 6s ease-in-out infinite; }
+    .particle-2 { animation: floatParticle 8s ease-in-out infinite 1.5s; }
+    .particle-3 { animation: floatParticle 7s ease-in-out infinite 3s; }
+    .particle-4 { animation: floatParticle 9s ease-in-out infinite 2s; }
+
+    /* Animated Collaboration Flow Wave */
+    @keyframes waveDash {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: 200; }
+    }
+    .flow-wave {
+      stroke-dasharray: 8 6;
+      animation: waveDash 12s linear infinite;
+    }
+
+    /* Subtle Pill Glow Transition */
+    @keyframes pillHover {
+      0%, 100% { stroke-opacity: 0.4; }
+      50% { stroke-opacity: 0.9; }
+    }
+    .pill-border {
+      animation: pillHover 4s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Animated Ambient Orbs in Background -->
+  <circle class="orb-1" cx="180" cy="90" r="140" fill="url(#glowGrad1)" />
+  <circle class="orb-2" cx="1020" cy="310" r="160" fill="url(#glowGrad2)" />
+
+  <!-- Background Grid Pattern -->
+  <rect width="1200" height="420" rx="16" fill="url(#cyberGrid)" />
+
+  <!-- Dynamic Collaboration Connectors (Background Flow Lines) -->
+  <g opacity="0.35">
+    <path class="flow-wave" d="M -50 340 C 250 300, 450 390, 750 330 C 950 290, 1100 370, 1250 320" fill="none" stroke="#6366f1" stroke-width="2" />
+    <path class="flow-wave" d="M -50 360 C 200 400, 500 310, 800 370 C 1000 410, 1150 330, 1250 360" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+  </g>
+
+  <!-- Floating Ambient Collaboration Data Nodes -->
+  <g>
+    <circle class="particle-1" cx="140" cy="270" r="4" fill="#38bdf8" />
+    <circle class="particle-2" cx="320" cy="360" r="3" fill="#818cf8" />
+    <circle class="particle-3" cx="890" cy="80" r="3.5" fill="#c084fc" />
+    <circle class="particle-4" cx="1060" cy="180" r="4" fill="#ec4899" />
+    <circle class="particle-2" cx="640" cy="40" r="2.5" fill="#38bdf8" />
+  </g>
+
+  <!-- Top Category Tag / Badge -->
+  <g transform="translate(60, 42)">
+    <rect width="250" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6" />
+    <circle cx="16" cy="14" r="5" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="32" y="18" class="badge-label">ENTERPRISE CURATED STACK</text>
+  </g>
+
+  <!-- Main Hero Title & Foreground Messaging -->
+  <!-- Guaranteed high-contrast foreground, will not be covered by animations -->
+  <g transform="translate(60, 125)">
+    <text class="title">Enterprise Document Collaboration Suite</text>
+    <text y="42" class="subtitle">Cloud Office Suites, Real-Time Docs, Connected Wikis &amp; Sovereign Workspaces</text>
+    <text y="70" class="subtitle" font-size="14" fill="#64748b">Real-Time Co-Authoring • CRDT &amp; OT Engines • Self-Hosted Cloud Offices • End-to-End Encryption</text>
+  </g>
+
+  <!-- Interactive Dynamic Tech Feature Pills in Foreground -->
+  <g transform="translate(60, 240)">
+    <!-- Pill 1: Real-Time Docs -->
+    <g transform="translate(0, 0)">
+      <rect width="180" height="42" rx="21" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.2" class="pill-border" />
+      <text x="24" y="26" class="pill-text">📝 Real-Time Docs</text>
+    </g>
+
+    <!-- Pill 2: Spreadsheets & Grids -->
+    <g transform="translate(195, 0)">
+      <rect width="185" height="42" rx="21" fill="url(#cardGrad)" stroke="#34d399" stroke-width="1.2" class="pill-border" />
+      <text x="22" y="26" class="pill-text">📊 Smart Sheets</text>
+    </g>
+
+    <!-- Pill 3: Connected Wikis -->
+    <g transform="translate(395, 0)">
+      <rect width="180" height="42" rx="21" fill="url(#cardGrad)" stroke="#818cf8" stroke-width="1.2" class="pill-border" />
+      <text x="22" y="26" class="pill-text">🧠 Team Wikis</text>
+    </g>
+
+    <!-- Pill 4: Sovereign Self-Hosted -->
+    <g transform="translate(590, 0)">
+      <rect width="210" height="42" rx="21" fill="url(#cardGrad)" stroke="#c084fc" stroke-width="1.2" class="pill-border" />
+      <text x="22" y="26" class="pill-text">🛡️ Sovereign Cloud</text>
+    </g>
+
+    <!-- Pill 5: CRDT & Local-First -->
+    <g transform="translate(815, 0)">
+      <rect width="200" height="42" rx="21" fill="url(#cardGrad)" stroke="#f472b6" stroke-width="1.2" class="pill-border" />
+      <text x="22" y="26" class="pill-text">⚡ CRDT &amp; Local-First</text>
+    </g>
+  </g>
+
+  <!-- Lower Architecture Indicator Badges -->
+  <g transform="translate(60, 320)">
+    <!-- Card 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="320" height="54" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="18" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#38bdf8">☁️ COMMERCIAL SAAS</text>
+      <text x="18" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Microsoft 365 • Google Workspace • Notion • Coda</text>
+    </g>
+
+    <!-- Card 2 -->
+    <g transform="translate(345, 0)">
+      <rect width="350" height="54" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="18" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#818cf8">💻 OPEN-SOURCE HEROES</text>
+      <text x="18" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">AppFlowy • AFFiNE • Outline • Univer • Nextcloud</text>
+    </g>
+
+    <!-- Card 3 -->
+    <g transform="translate(720, 0)">
+      <rect width="350" height="54" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="18" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#34d399">🔐 DATA SOVEREIGNTY</text>
+      <text x="18" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">GDPR-Ready • Zero-Knowledge • Air-Gapped Deploy</text>
+    </g>
+  </g>
+
+  <!-- Border Outline -->
+  <rect width="1200" height="420" rx="16" fill="none" stroke="#334155" stroke-width="1.5" stroke-opacity="0.6" />
+</svg>
