@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Enterprise-Document-Collaboration-Suite" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -71,9 +71,9 @@ The table below catalogs leading enterprise SaaS collaboration suites, sorted in
 
 The table below lists top open-source document collaboration projects, real-time rich text/spreadsheet engines, and self-hosted team wikis. 🛠️
 
-Each repository includes its official GitHub star count badge (using `style=social` and `color=white`), linking directly to the repository's stargazers page, and is sorted in **descending order by GitHub star count**. 🌟
+Each repository includes its official GitHub Stars_Count badge (using `style=social` and `color=white`), linking directly to the repository's stargazers page, and is sorted in **descending order by GitHub Stars_Count**. 🌟
 
-| Repository & Project | GitHub Stars (Live Badge) | License | Primary Architecture / Tech Stack | Overview & Enterprise Capabilities |
+| Repository & Project | GitHub_Stars (Live Badge) | License | Primary Architecture / Tech Stack | Overview & Enterprise Capabilities |
 | :--- | :--- | :--- | :--- | :--- |
 | **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | [![AppFlowy Stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers) | AGPL-3.0 | Flutter / Rust / SQLite | Open-source Notion alternative prioritizing local-first data ownership, offline support, cross-platform desktop/mobile sync, and enterprise plugin extensibility. |
 | **[AFFiNE](https://github.com/toeverything/AFFiNE)** | [![AFFiNE Stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers) | MIT | TypeScript / Rust / CRDT (Yjs) | Next-generation all-in-one collaborative workspace that merges docs, visual whiteboards, and database tables into a single unified canvas with local-first sync. |
@@ -135,7 +135,7 @@ Contributions are welcome! Please follow these guidelines:
 
 1. **Check Existing Entries** 🔍: Search the tables to ensure the platform or open-source repository isn't already included.
 2. **Open-Source Criteria** 📋: Must be actively maintained on GitHub with clear documentation, open license, and relevant document/knowledge collaboration focus.
-3. **Format Standards** 📐: Ensure all columns (Valuation/Revenue scale, starting tier pricing, explicit free tier limits, star badges linking to stargazers) are filled out accurately.
+3. **Format Standards** 📐: Ensure all columns (Valuation/Revenue scale, starting tier pricing, explicit free tier limits, Stars_Badges linking to stargazers) are filled out accurately.
 4. **Submit a Pull Request** 🚀: Submit your PR with a clear description and commit message following standard conventions.
 
 ---
